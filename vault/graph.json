@@ -1,0 +1,2236 @@
+{
+ "sources": 36,
+ "concepts": 35,
+ "source_concept_links": 235,
+ "concept_related_links": 36,
+ "source_related_links": 94,
+ "categories": {
+  "wiki-tooling": 8,
+  "foundations": 6,
+  "llm-stack": 13,
+  "other": 1,
+  "ai-core": 8
+ },
+ "graph": {
+  "nodes": [
+   {
+    "id": "dataview",
+    "kind": "source",
+    "title": "dataview",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "llm-wiki",
+    "kind": "source",
+    "title": "llm-wiki",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "marp",
+    "kind": "source",
+    "title": "marp",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "obsidian-clipper-help",
+    "kind": "source",
+    "title": "Obsidian Web Clipper - Obsidian Help",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "obsidian-graph",
+    "kind": "source",
+    "title": "Graph view - Obsidian Help",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "obsidian-help",
+    "kind": "source",
+    "title": "How Obsidian stores data - Obsidian Help",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "obsidian-web-clipper",
+    "kind": "source",
+    "title": "obsidian-web-clipper",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "qmd",
+    "kind": "source",
+    "title": "qmd",
+    "category": "wiki-tooling"
+   },
+   {
+    "id": "tolkien-gateway",
+    "kind": "source",
+    "title": "Tolkien Gateway",
+    "category": "foundations"
+   },
+   {
+    "id": "wikipedia-ai-agent",
+    "kind": "source",
+    "title": "AI agent",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-ai-hallucination",
+    "kind": "source",
+    "title": "Hallucination (artificial intelligence)",
+    "category": "other"
+   },
+   {
+    "id": "wikipedia-artificial-intelligence",
+    "kind": "source",
+    "title": "Artificial intelligence",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-attention-mechanism",
+    "kind": "source",
+    "title": "Attention mechanism",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-chatbot",
+    "kind": "source",
+    "title": "Chatbot",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-deep-learning",
+    "kind": "source",
+    "title": "Deep learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-embedding",
+    "kind": "source",
+    "title": "Embedding (machine learning)",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-fine-tuning",
+    "kind": "source",
+    "title": "Fine-tuning (machine learning)",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-foundation-model",
+    "kind": "source",
+    "title": "Foundation model",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-hypertext",
+    "kind": "source",
+    "title": "Hypertext",
+    "category": "foundations"
+   },
+   {
+    "id": "wikipedia-knowledge-graph",
+    "kind": "source",
+    "title": "Knowledge graph",
+    "category": "foundations"
+   },
+   {
+    "id": "wikipedia-large-language-model",
+    "kind": "source",
+    "title": "Large language model",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-machine-learning",
+    "kind": "source",
+    "title": "Machine learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-markdown",
+    "kind": "source",
+    "title": "Markdown",
+    "category": "foundations"
+   },
+   {
+    "id": "wikipedia-model-context-protocol",
+    "kind": "source",
+    "title": "Model Context Protocol",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-neural-network",
+    "kind": "source",
+    "title": "Neural network",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-prompt-engineering",
+    "kind": "source",
+    "title": "Prompt engineering",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-reinforcement-learning",
+    "kind": "source",
+    "title": "Reinforcement learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-retrieval-augmented-generation",
+    "kind": "source",
+    "title": "Retrieval-augmented generation",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-self-supervised-learning",
+    "kind": "source",
+    "title": "Self-supervised learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-software-as-a-service",
+    "kind": "source",
+    "title": "Software as a service",
+    "category": "foundations"
+   },
+   {
+    "id": "wikipedia-supervised-learning",
+    "kind": "source",
+    "title": "Supervised learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-tokenization",
+    "kind": "source",
+    "title": "Tokenization (lexical analysis)",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-transformer-architecture",
+    "kind": "source",
+    "title": "Transformer (deep learning architecture)",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-unsupervised-learning",
+    "kind": "source",
+    "title": "Unsupervised learning",
+    "category": "ai-core"
+   },
+   {
+    "id": "wikipedia-vector-database",
+    "kind": "source",
+    "title": "Vector database",
+    "category": "llm-stack"
+   },
+   {
+    "id": "wikipedia-wiki",
+    "kind": "source",
+    "title": "Wiki",
+    "category": "foundations"
+   },
+   {
+    "id": "concept:markdown",
+    "kind": "concept",
+    "title": "markdown"
+   },
+   {
+    "id": "concept:obsidian",
+    "kind": "concept",
+    "title": "obsidian"
+   },
+   {
+    "id": "concept:dataview",
+    "kind": "concept",
+    "title": "dataview"
+   },
+   {
+    "id": "concept:large-language-model",
+    "kind": "concept",
+    "title": "large language model"
+   },
+   {
+    "id": "concept:retrieval-augmented-generation",
+    "kind": "concept",
+    "title": "retrieval-augmented generation"
+   },
+   {
+    "id": "concept:wiki",
+    "kind": "concept",
+    "title": "wiki"
+   },
+   {
+    "id": "concept:rag-pipeline",
+    "kind": "concept",
+    "title": "rag pipeline"
+   },
+   {
+    "id": "concept:knowledge-compounding",
+    "kind": "concept",
+    "title": "knowledge compounding"
+   },
+   {
+    "id": "concept:llm-agent-workflow",
+    "kind": "concept",
+    "title": "llm agent workflow"
+   },
+   {
+    "id": "concept:marp",
+    "kind": "concept",
+    "title": "marp"
+   },
+   {
+    "id": "concept:web-clipper",
+    "kind": "concept",
+    "title": "web clipper"
+   },
+   {
+    "id": "concept:local-search",
+    "kind": "concept",
+    "title": "local search"
+   },
+   {
+    "id": "concept:memex",
+    "kind": "concept",
+    "title": "memex"
+   },
+   {
+    "id": "concept:embedding",
+    "kind": "concept",
+    "title": "embedding"
+   },
+   {
+    "id": "concept:fine-tuning",
+    "kind": "concept",
+    "title": "fine-tuning"
+   },
+   {
+    "id": "concept:ai-agent",
+    "kind": "concept",
+    "title": "ai agent"
+   },
+   {
+    "id": "concept:model-context-protocol",
+    "kind": "concept",
+    "title": "model context protocol"
+   },
+   {
+    "id": "concept:hypertext",
+    "kind": "concept",
+    "title": "hypertext"
+   },
+   {
+    "id": "concept:artificial-intelligence",
+    "kind": "concept",
+    "title": "artificial intelligence"
+   },
+   {
+    "id": "concept:foundation-model",
+    "kind": "concept",
+    "title": "foundation model"
+   },
+   {
+    "id": "concept:reinforcement-learning",
+    "kind": "concept",
+    "title": "reinforcement learning"
+   },
+   {
+    "id": "concept:chatbot",
+    "kind": "concept",
+    "title": "chatbot"
+   },
+   {
+    "id": "concept:neural-network",
+    "kind": "concept",
+    "title": "neural network"
+   },
+   {
+    "id": "concept:hallucination",
+    "kind": "concept",
+    "title": "hallucination"
+   },
+   {
+    "id": "concept:machine-learning",
+    "kind": "concept",
+    "title": "machine learning"
+   },
+   {
+    "id": "concept:deep-learning",
+    "kind": "concept",
+    "title": "deep learning"
+   },
+   {
+    "id": "concept:transformer",
+    "kind": "concept",
+    "title": "transformer"
+   },
+   {
+    "id": "concept:attention-mechanism",
+    "kind": "concept",
+    "title": "attention mechanism"
+   },
+   {
+    "id": "concept:supervised-learning",
+    "kind": "concept",
+    "title": "supervised learning"
+   },
+   {
+    "id": "concept:knowledge-graph",
+    "kind": "concept",
+    "title": "knowledge graph"
+   },
+   {
+    "id": "concept:prompt-engineering",
+    "kind": "concept",
+    "title": "prompt engineering"
+   },
+   {
+    "id": "concept:tokenization",
+    "kind": "concept",
+    "title": "tokenization"
+   },
+   {
+    "id": "concept:unsupervised-learning",
+    "kind": "concept",
+    "title": "unsupervised learning"
+   },
+   {
+    "id": "concept:self-supervised-learning",
+    "kind": "concept",
+    "title": "self-supervised learning"
+   },
+   {
+    "id": "concept:vector-database",
+    "kind": "concept",
+    "title": "vector database"
+   }
+  ],
+  "edges": [
+   {
+    "source": "concept:ai-agent",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:ai-agent",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:ai-agent",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:ai-agent",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:ai-agent",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:ai-agent",
+    "target": "wikipedia-model-context-protocol",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-model-context-protocol",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-neural-network",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:artificial-intelligence",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:attention-mechanism",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:attention-mechanism",
+    "target": "wikipedia-attention-mechanism",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:attention-mechanism",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:attention-mechanism",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:chatbot",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:dataview",
+    "target": "dataview",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:dataview",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-attention-mechanism",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-neural-network",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:deep-learning",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-attention-mechanism",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-embedding",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:embedding",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-fine-tuning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:fine-tuning",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:foundation-model",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:foundation-model",
+    "target": "wikipedia-fine-tuning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:foundation-model",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:foundation-model",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hallucination",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hypertext",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hypertext",
+    "target": "wikipedia-hypertext",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:hypertext",
+    "target": "wikipedia-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-compounding",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-compounding",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-compounding",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-graph",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-graph",
+    "target": "wikipedia-embedding",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:knowledge-graph",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-fine-tuning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-markdown",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-model-context-protocol",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-software-as-a-service",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-tokenization",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:large-language-model",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:llm-agent-workflow",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:llm-agent-workflow",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:llm-agent-workflow",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:local-search",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:local-search",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:local-search",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:local-search",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:local-search",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-neural-network",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-unsupervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:machine-learning",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:dataview",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:knowledge-compounding",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:llm-agent-workflow",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:local-search",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:marp",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:memex",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:obsidian",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:rag-pipeline",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:retrieval-augmented-generation",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:web-clipper",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "concept:wiki",
+    "kind": "related"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "dataview",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "marp",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "obsidian-web-clipper",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:markdown",
+    "target": "wikipedia-markdown",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:marp",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:marp",
+    "target": "marp",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:memex",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:memex",
+    "target": "wikipedia-hypertext",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:model-context-protocol",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:model-context-protocol",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:model-context-protocol",
+    "target": "wikipedia-model-context-protocol",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-attention-mechanism",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-fine-tuning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-neural-network",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:neural-network",
+    "target": "wikipedia-unsupervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:dataview",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:knowledge-compounding",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:llm-agent-workflow",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:local-search",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:markdown",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:marp",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:memex",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:rag-pipeline",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:retrieval-augmented-generation",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:web-clipper",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "concept:wiki",
+    "kind": "related"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "dataview",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "obsidian-clipper-help",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "obsidian-help",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:obsidian",
+    "target": "obsidian-web-clipper",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:prompt-engineering",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:prompt-engineering",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:prompt-engineering",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:rag-pipeline",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:reinforcement-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "tolkien-gateway",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-ai-agent",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-ai-hallucination",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-hypertext",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-prompt-engineering",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-software-as-a-service",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:retrieval-augmented-generation",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:self-supervised-learning",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:self-supervised-learning",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:supervised-learning",
+    "target": "wikipedia-unsupervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:tokenization",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:tokenization",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:tokenization",
+    "target": "wikipedia-tokenization",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:tokenization",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-attention-mechanism",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-foundation-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-large-language-model",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:transformer",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:unsupervised-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:unsupervised-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:unsupervised-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:unsupervised-learning",
+    "target": "wikipedia-self-supervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:unsupervised-learning",
+    "target": "wikipedia-unsupervised-learning",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:vector-database",
+    "target": "wikipedia-retrieval-augmented-generation",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:vector-database",
+    "target": "wikipedia-vector-database",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:web-clipper",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:web-clipper",
+    "target": "obsidian-web-clipper",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:dataview",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:knowledge-compounding",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:llm-agent-workflow",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:local-search",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:markdown",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:marp",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:memex",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:obsidian",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:rag-pipeline",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:retrieval-augmented-generation",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "concept:web-clipper",
+    "kind": "related"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "llm-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "marp",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "qmd",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "tolkien-gateway",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "wikipedia-chatbot",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "wikipedia-hypertext",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "wikipedia-markdown",
+    "kind": "mentions"
+   },
+   {
+    "source": "concept:wiki",
+    "target": "wikipedia-wiki",
+    "kind": "mentions"
+   },
+   {
+    "source": "dataview",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "dataview",
+    "target": "obsidian-web-clipper",
+    "kind": "related"
+   },
+   {
+    "source": "llm-wiki",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "llm-wiki",
+    "target": "wikipedia-ai-agent",
+    "kind": "related"
+   },
+   {
+    "source": "llm-wiki",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "related"
+   },
+   {
+    "source": "marp",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "marp",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "marp",
+    "target": "wikipedia-markdown",
+    "kind": "related"
+   },
+   {
+    "source": "obsidian-web-clipper",
+    "target": "dataview",
+    "kind": "related"
+   },
+   {
+    "source": "obsidian-web-clipper",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "qmd",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "qmd",
+    "target": "wikipedia-ai-agent",
+    "kind": "related"
+   },
+   {
+    "source": "qmd",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "related"
+   },
+   {
+    "source": "tolkien-gateway",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "tolkien-gateway",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "tolkien-gateway",
+    "target": "wikipedia-chatbot",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-agent",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-agent",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-agent",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-hallucination",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-hallucination",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-ai-hallucination",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-artificial-intelligence",
+    "target": "wikipedia-foundation-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-artificial-intelligence",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-artificial-intelligence",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-attention-mechanism",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-attention-mechanism",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-attention-mechanism",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-chatbot",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-chatbot",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-chatbot",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-deep-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-deep-learning",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-deep-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-embedding",
+    "target": "wikipedia-knowledge-graph",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-fine-tuning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-fine-tuning",
+    "target": "wikipedia-foundation-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-fine-tuning",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-foundation-model",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-foundation-model",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-foundation-model",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-hypertext",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-hypertext",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-hypertext",
+    "target": "tolkien-gateway",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-knowledge-graph",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-knowledge-graph",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-knowledge-graph",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-large-language-model",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-large-language-model",
+    "target": "wikipedia-foundation-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-large-language-model",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-machine-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-machine-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-machine-learning",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-markdown",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-markdown",
+    "target": "marp",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-markdown",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-model-context-protocol",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-model-context-protocol",
+    "target": "wikipedia-ai-agent",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-model-context-protocol",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-neural-network",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-neural-network",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-neural-network",
+    "target": "wikipedia-foundation-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-prompt-engineering",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-prompt-engineering",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-prompt-engineering",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-reinforcement-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-reinforcement-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-reinforcement-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-retrieval-augmented-generation",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-retrieval-augmented-generation",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-retrieval-augmented-generation",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-self-supervised-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-self-supervised-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-self-supervised-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-software-as-a-service",
+    "target": "llm-wiki",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-software-as-a-service",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-software-as-a-service",
+    "target": "wikipedia-ai-agent",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-supervised-learning",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-supervised-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-supervised-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-tokenization",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-tokenization",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-tokenization",
+    "target": "wikipedia-transformer-architecture",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-transformer-architecture",
+    "target": "wikipedia-artificial-intelligence",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-transformer-architecture",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-transformer-architecture",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-unsupervised-learning",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-unsupervised-learning",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-unsupervised-learning",
+    "target": "wikipedia-reinforcement-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-vector-database",
+    "target": "wikipedia-deep-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-vector-database",
+    "target": "wikipedia-large-language-model",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-vector-database",
+    "target": "wikipedia-machine-learning",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-wiki",
+    "target": "qmd",
+    "kind": "related"
+   },
+   {
+    "source": "wikipedia-wiki",
+    "target": "wikipedia-hypertext",
+    "kind": "related"
+   }
+  ]
+ }
+}

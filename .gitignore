@@ -1,0 +1,6 @@
+# raw sources are fetched, not committed (they are large and third-party)
+/raw/
+/vault/raw/
+/vault/graph.png
+__pycache__/
+*.pyc
